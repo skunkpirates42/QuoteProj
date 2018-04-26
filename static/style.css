@@ -1,0 +1,11 @@
+div {
+    text-align: center
+}
+button {
+    display: block;
+    margin: 10px auto;
+}
+
+#quoteBox {
+    margin-top: 20%;
+}
