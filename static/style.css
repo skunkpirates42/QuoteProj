@@ -1,22 +1,26 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
+
+* {
+    list-style: none;
+}
+
 body {
-    background-color: #333;
     font-family: 'Raleway', sans-serif;
 }
 div {
-    text-align: center
+    text-align: center;
+    color: inherit;
 }
 button {
     float: right;
     border-radius: 3px;
     color: #fff;
     border: none;
-    height: 38px;
+    height: 32px;
     font-size: 0.85em;
-    padding: 8px 18px 6px 18px;
+    padding: 6px 18px 6px 18px;
     opacity: 1;
     cursor: pointer;
-    background-color: #333;
 }
 
 button:focus {
@@ -33,6 +37,9 @@ a {
     color: inherit;
 }
 
+.buttons {
+    margin-bottom: 15%;
+}
 
 #quoteBox {
     text-align: center;
@@ -46,4 +53,13 @@ a {
 #text {
     font-size: 1.75em;
     font-weight: 500;
+}
+
+#authDiv {
+    margin-bottom: 5%;
+}
+
+#author {
+    margin-right: 10%;
+    font-size: 1.25em;
 }
