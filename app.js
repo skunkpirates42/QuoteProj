@@ -5,7 +5,7 @@ const authTxt = document.getElementById("author");
 const twtIcon = document.getElementById("twitUrl");
 const body = document.querySelector("html");
 const quoteBox = document.querySelector("quoteBox");
-const quoteUrl = 'http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1';
+const quoteUrl = 'https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1';
 let twtUrl = '';
 let author;
 let quote;
