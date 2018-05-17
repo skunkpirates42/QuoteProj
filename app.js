@@ -66,6 +66,9 @@ function changeColor() {
     body.style.backgroundColor = currentColor;
     newQuoteBtn.style.backgroundColor = currentColor;
     twtIcon.style.color = currentColor;
+    body.style.transition = "background-color 2.5s, color 2.5s";
+    newQuoteBtn.style.transition = "background-color 2.5s";
+    twtIcon.style.transition = "color 2.5s";
 }
 
 function randomColor(){
